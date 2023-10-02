@@ -1,0 +1,22 @@
+# DICCIONARIO
+
+diccionario = {"Nombre completo":"Wilmer Adrian Villegas Toapanta","Edad":"36","Ciudad":"El Chaco","Profesion":"Guardia seguridad"}
+
+diccionario["Ciudad"] = "Baeza"
+
+diccionario["Ocupacion"] = "Soldador"
+
+diccionario["Telefono"] = "0989655555"
+
+del(diccionario["Edad"])
+
+print(diccionario)
+
+# Se ingresa las claves: nombre completo, edad,ciudad, profesion. con letra mayuscula en la palabra inicial.
+# el valor de la clave "ciudad" se cambia con una ciudad diferente; El Chaco - Baeza
+# Se agraga nueva clave y valor en el diccionario que represente una ocupacion personal
+# luego de verificar la no existencia del valor "telefono" se procede agregar en el diccionario.
+# elimine la clave "Edad" del resultado
+# y finalizo realizando la impresion de resultados donde muestra las siguientes claves:
+# nombre competo,ciudad,profesion, se agrega la clave "ocupacion",telefono
+# y no se muestra la clave "edad" porque se elimino del diccionario.
